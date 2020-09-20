@@ -1,0 +1,176 @@
+:root {
+  --main-fg-color: #000000;
+  --main-bg-color: #ffffff;
+  --main-highlight-color: #666666;
+  --shadow-color: #aaaaaa;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('./fonts/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('./fonts/Roboto-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('./fonts/Roboto-Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('./fonts/Roboto-BoldItalic.ttf');
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: JetBrains Mono;
+    src: url('./fonts/JetBrainsMono-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: JetBrains Mono;
+    src: url('./fonts/JetBrainsMono-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+}
+
+
+@font-face {
+    font-family: JetBrains Mono;
+    src: url('./fonts/JetBrainsMono-Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: JetBrains Mono;
+    src: url('./fonts/JetBrainsMono-Bold-Italic.ttf');
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 10pt;
+    color: var(--main-fg-color);
+    width: 210mm;
+    margin: 0 auto 0 auto;
+    background: var(--main-bg-color);
+    padding: 0px 1em 1em 1em;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+
+hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* Title of the resume */
+h1 {
+    font-size: 24pt;
+    color: var(--main-fg-color);
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+/* Titles of categories */
+h2 {
+    font-size: 14pt;
+    color: var(--main-highlight-color);
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid var(--main-highlight-color);
+}
+
+h3 {
+    font-size: 12pt;
+    color: var(--main-fg-color);
+}
+
+/* Definitions */
+dl {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+dt {
+    float: left;
+    clear: left;
+    width: 32%;
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 32%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+/* Blockquotes */
+blockquote {
+    text-align: center;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: var(--main-fg-color);
+}
+a:hover, a:active {
+    background-color: var(--main-fg-color);
+    color: var(--main-bg-color);
+    text-decoration: none;
+}
+
+/* Horizontal separators */
+hr {
+    color: var(--main-fg-color);
+}
+
+/* Place avatar image on the right side */
+#portrait {
+    position: absolute;
+    top: 10em;
+    right: 6em;
+    width: 192px;
+    transform: rotate(-8deg);
+    border: 1px solid #999999;
+}
+
+#portrait-background {
+    position: absolute;
+    transform: scaleX(-1) rotate(4deg);
+    top: 8.5em;
+    right: 1.5em;
+    width: 320px;
+}
