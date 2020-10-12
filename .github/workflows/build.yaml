@@ -1,0 +1,29 @@
+
+name: Process CV sources
+
+on:
+  push:
+    branches:
+    - '**'
+    - '!gh-pages'
+  pull_request:
+    branches:
+    - master
+    types:
+    - opened
+    - synchronize
+    - reopened
+
+jobs:
+  render_cv:
+    name: Render CV
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Perform 'git checkout'
+      uses: actions/checkout@v2
+      id: git_checkout
+    - name: Extract branch name
+      if: github.event_name != 'pull_request'
+      shell: bash
+      run: echo "::set-env name=GIT_BRANCH_NAME::$(echo ${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}})"
+      id: extract_branch_name
