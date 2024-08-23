@@ -27,9 +27,77 @@ Familienstand
 : verheiratet, 3 Kinder\
 \
 
-## Berufstätigkeit
+## Berufs- und Projekterfahrung
 
-Seit 01/2010
+03/2021–heute
+: **Qvest Digital AG** (vormals tarent solutions GmbH)
+  DevOps Cloud Engineer
+  \
+  Full Stack Software Development, Management von Infrastructure as Code/Configuration im Einsatz bei einem breit gefächterten Spektrum an Kunden aus verschiedenen Branchen.
+
+### Projekte im Auftrag von Qvest Digital / tarent
+
+12/2023
+: **Greenbone AG**
+  Trainer/Consultant
+  \
+\
+: **Projektbeschreibung:**
+  Hands-on Kubernetes Training mit anschließendem Review einer VM-basierten Appliance-Lösung in Bezug auf Kubernetes Best-Practices mit Fokus auf Analyse der Security und Reliability.
+  \
+\
+: **Aufgaben:**
+  Entwicklung eines Workshop Formats für ein Kubernetes Training innerhalb der Organisation, sowie Durchführung und Nachbereitung des Trainings mit abschlie&szlig;ender Auditierung einer VM-basierten Appliance-Lösung in Bezug auf Kubernetes Best-Practices mit Fokus auf Analyse der Security und Reliability.
+  \
+\
+: **Technologien:**
+  Kubernetes, reveal-md
+  \
+\
+
+11/2022–12/2023
+: **REWE digital GmbH**
+  Cloud DevOps Engineer / Full Stack Developer
+  \
+\
+: **Projektbeschreibung:**
+  Unterstützung eines als “Complicated sub-team” klassifizierten Teams bei der Stammdaten-Versorgung von Salesforce.
+  \
+  Tätigkeiten umfassten u.A.:
+  * Entwicklung einer auf SAP CAP-basierten prototypischen Anwendung, welche für Salesforce via Salesforce Connect Daten per OData 4.0 zur Verfügung stellt.
+  * Entwicklung einer auf PostgreSQL-basierten Datenhaltung mit Volltextsuche, welche über einen Schema-first-Ansatz eine auf OpenAPI-basierte REST-Schnittstelle für Salesforce zur Verfügung stellt.
+  * Pflege von Maintenance-und Deployment-Skripten, die mit Hilfe der Salesforce Kommandozeile SFDX.
+  \
+\
+: **Aufgaben:**
+  * Software-Entwicklung/Wartung/Betrieb
+  * Infrastruktur-Management (Google Cloud Platform)
+  \
+\
+: **Technologien:**
+  Salesforce, SFDX, Google Cloud Platform (insbes. serverless Produkte: Cloud Run, Cloud Function,...), Spring Boot, Kotlin, TypeScript, Kafka, Go, PostgreSQL, OpenAPI v3, sqlc
+  \
+\
+
+03/2021–10/2022
+: **OC Payment GmbH**
+  Full Stack Developer
+  \
+\
+: **Projektbeschreibung:**
+  Unterstützung eines Start-Ups bei der Etablierung einer Payment-Plattform im E-Commerce Kontext, spezifisch für die Bereiche Merchant Hub und IAM
+  \
+\
+: **Aufgaben:**
+  Aufsetzen/Pflege der Basis-Cloud-Infrastruktur, der zugehörigen GitOps-basierten Deployment-Prozesse und Hilfe bei der backend-seitigen Entwicklung bei der Erstellung einer Daten-Pipeline für die Verarbeitung von Kartenzahlungsdaten.
+  \
+\
+: **Technologien:**
+  React, Spring Boot, Google Cloud Platform, Kubernetes, Flux, Git, Java, TypeScript, REST, Github, Spanner DB, Apache Beam, Dataflow
+  \
+\
+
+01/2010–02/2021
 : **ip.labs GmbH** (Bonn)  
   Software-Entwickler\
   \
@@ -43,7 +111,7 @@ Seit 01/2010
   IT Consulting, Software-Entwicklung, User Interface Design. Gemeinsam mit meinem Bruder habe ich im freiberuflich im Namen von Terreon an verschiedenen Projekten gearbeitet, von denen auszugweise einige nachfolgend aufgelistet sind.
 \
 
-## Projekte als Freiberufler
+### Projekte als Freiberufler / für Terreon
 
 03/2011–11/2012
 : **Deutsche Telekom / T-Mobile: B2B Event Processor**
@@ -112,6 +180,15 @@ Seit 01/2010
 \
 
   <div style="page-break-before: always;"></div>
+
+## Vorträge und Veröffentlichungen
+
+10/2018
+: **JCON 2018 in der UCI Kinowelt Düsseldorf**
+  \
+  Vortrag zum Thema “AWS Fargate: Containerization meets Serverless”
+
+\
 
 ## Ausbildung
 
@@ -189,16 +266,19 @@ Datenbanken
 \
 
 Public Clouds
-: Sehr gute Kentnisse mit Amazon Web Services (AWS), grundlegende Kentnisse mit Microsoft Azure, grundlegende Kentnisse mit Google Cloud Platform (GCP)\
+: Gute Kentnisse mit Amazon Web Services (AWS), gute Kentnisse mit Microsoft Azure, sehr gute Kentnisse mit Google Cloud Platform (GCP)
+\
+\
+<small>Insbesondere die Konzepte der Ressourcen-Strukturierung, die Funktionsweise der verschiedenen IAM-Implementierungen, das DNS-Management und das Aufsetzen und der Betrieb des Deployments von Container-basierten und serverless Workloads und die damit in allen drei der oben genannten Hyperscaler sind hier mein Stärken.</small>\
 \
 
 <div style="page-break-before: always;"></div>
 
 ## Open Source Projekte
 
-Unter meinem GitHub User "headcr4sh" sind einige private Open Source Projekte von mir veröffentlicht. Ich bin der Maintainer einiger Projekte, die von mir im Namen meines Arbeitgebers ip.labs GmbH veröffentlicht wurden, sowie für die fiktive Organistation "Cat Hive", unter dessen Pseudonym ebenfalls einige Open Source-Projekte und Experimente zu finden sind.\
+Unter meinem GitHub User “headcr4sh“ sind einige private Open Source Projekte von mir veröffentlicht. Ich bin der Maintainer einiger Projekte, die von mir im Namen meiner bisherigen Arbeitgeber veröffentlicht wurden, sowie für die fiktive Organistation “Cat Hive“, unter deren Pseudonym ebenfalls einige Open Source-Projekte und Experimente zu finden sind.\
 \
-Ich bin Teil der "Kubernetes" Organisation auf GitHub und Maintainer der deutschen Überstetzung des Kubernetes Dashboards.\
+Ich war bis 2023 Teil der “Kubernetes“ Organisation auf GitHub und Maintainer der deutschen Überstetzung des [Kubernetes Dashboards](https://github.com/kubernetes/dashboard).\
 
 ### [Concourse SonarQube Resource](https://github.com/cathive/concourse-sonarqube-resource)
 
@@ -210,12 +290,12 @@ Integration von [SonarQube](https://sonarqube.org/) in CI/CD Build Pipelines, we
 Integration von [ChartMuseum](https://chartmuseum.com/) in CI/CD Build Pipelines, welche mit Concourse CI erstellt wurden.\
 \
 
-### [Terraform Modul: AWS ALB Ingress Controller](https://github.com/iplabs/terraform-kubernetes-alb-ingress-controller)
+### [Terraform Modul: AWS ALB Ingress Controller](https://github.com/qvest-digital/terraform-kubernetes-alb-ingress-controller)
 
 Vollständig automatisierte Installation eines [ALB Ingress Controllers](https://github.com/kubernetes-sigs/aws-alb-ingress-controller), um eingehenden HTTP/HTTPS-Netzwerk-Traffic per Application Load Balancer auf die Nodes innerhalb eines Kubernetes Clusters zu verteilen mit Hilfe von entsprechend konfigurierten Ingress-Objekten.\
 \
 
-### [Terraform Modul: AWS Node Termination Handler](https://github.com/iplabs/terraform-kubernetes-aws-node-termination-handler)
+### [Terraform Modul: AWS Node Termination Handler](https://github.com/qvest-digital/terraform-kubernetes-aws-node-termination-handler)
 
 Vollständig automatisierte Installation eines [AWS Node Termination Handlers](https://github.com/aws/aws-node-termination-handler), um Spot-Instanzen effektiv in AWS mit Hilfe von Kubernetes nutzen zu können.\
 \

@@ -8,7 +8,7 @@ on:
     - '!gh-pages'
   pull_request:
     branches:
-    - master
+    - main
     types:
     - opened
     - synchronize
@@ -17,10 +17,10 @@ on:
 jobs:
   render_cv:
     name: Render CV
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
     - name: Perform 'git checkout'
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       id: git_checkout
     - name: Extract branch name
       if: github.event_name != 'pull_request'
