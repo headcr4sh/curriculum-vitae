@@ -1,4 +1,4 @@
-.POSIX:
+.POSIX: true
 
 SHELL = /bin/sh
 
