@@ -30,8 +30,7 @@ Familienstand
 ## Berufs- und Projekterfahrung
 
 03/2021–heute
-: **Qvest Digital AG** (vormals tarent solutions GmbH)
-  DevOps Cloud Engineer
+: **Qvest Digital AG** (vormals tarent solutions GmbH), DevOps Cloud Engineer
   \
   Full Stack Software Development, Management von Infrastructure as Code/Configuration im Einsatz bei einem breit gefächterten Spektrum an Kunden aus verschiedenen Branchen.
 
@@ -154,7 +153,7 @@ Familienstand
 \
 
 11/2008–04/2009
-: **DB Systel: Abrechnungssysteme "B.A.S.S"**
+: **DB Systel: Abrechnungssysteme "B.A.S.S."**
   Entwicklung, Fehlerbehebung und Wartung.\
   Mit der Inbetriebnahme von B.A.S.S. im März 2009 wurde ein Microsoft Access-basiertes Legacy-System der Deutschen Bahn ersetzt.\
   \
@@ -267,16 +266,15 @@ Führerschein
 ## Auszug aktueller Kenntnisse und Technologie-Schwerpunkte
 
 Betriebssysteme
-: GNU/Linux (seit 1994, verschiedene Distributionen, z.B. Ubuntu, Red Hat, SuSE, Fedora,…), macOS, Windows,
-  verschiedene BSD-Derivate,…\
+: Linux-basierte Distributionen (seit 1994, z.B. Ubuntu, Red Hat, SuSE, Fedora,…), macOS, Windows, verschiedene BSD-Derivate,…\
 \
 
 Sprachen
 : Java, Go, C, C++, JavaScript/TypeScript, Shell-Scripting (Bash/zsh),…\
 \
 
-Plattformen &amp; Tools
-: Kubernetes, Rancher, Docker, Terraform, CoreDNS, etcd, Prometheus, HashiCorp Vault, PostgreSQL, Jenkins CI, Concourse CI, SonarQube, GitLab, Ansible,…\
+Plattform-Automatisierung &amp; Tools
+: Kubernetes, Rancher, Docker, Terraform, bicep, Pulumi, CoreDNS, etcd, Prometheus, HashiCorp Vault, PostgreSQL, Jenkins CI, Concourse CI, SonarQube, Github Workflows, GitLab, Ansible,…\
 \
 
 Datenbanken
@@ -287,7 +285,7 @@ Public Clouds
 : Gute Kentnisse mit Amazon Web Services (AWS), sehr gute Kentnisse mit Microsoft Azure, sehr gute Kentnisse mit Google Cloud Platform (GCP)
 \
 \
-<small>Insbesondere auf den Konzepten der Ressourcen-Strukturierung, der Funktionsweise der verschiedenen IAM-Implementierungen, dem DNS-Management und dem Einrichten, dem Betrieb und dem Deployment von Container-basierten und serverless Workloads in cloud-basierten Szenarien liegt derzeit mein Fokus.</small>\
+<small>Insbesondere auf den Konzepten der Ressourcen-Strukturierung, der Funktionsweise (und Unterschiede) der existierenden IAM-Implementierungen, dem DNS-Management und dem Einrichten, dem Betrieb und dem Deployment von Container-basierten und serverless Workloads in cloud-basierten Szenarien liegt derzeit mein Fokus.</small>\
 \
 
 <div style="page-break-before: always;"></div>
@@ -350,6 +348,8 @@ Ein Hobby-Projekt für den 46. Ludum Dare "Game Jam", bei dem ich mit einigen Ko
 
 ---
 
-> <[benjamin.jung@outlook.com](benjamin.jung@outlook.com)> • [(+49)1577&nbsp;/&nbsp;159&nbsp;7883](tel:+4915771597883) •
-> Kirchgasse 17 - 53347 Alfter\
-> [ [LinkedIn](https://www.linkedin.com/in/headcr4sh/) | [XING](https://www.xing.com/profile/Benjamin_Jung2) | [GitHub](https://github.com/headcr4sh) ]
+## Links
+
+* LinkedIn: https://www.linkedin.com/in/headcr4sh/
+* XING: https://www.xing.com/profile/Benjamin_Jung2
+* GitHub: https://github.com/headcr4sh
