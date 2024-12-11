@@ -1,5 +1,5 @@
 <img src="./ripped-paper.png" alt="" id="portrait-background"/>
-<img src="./portrait.jpg" alt="" id="portrait"/>
+<img src="./portrait-1024x1024.png" alt="Portrait of Benjamin Patrick Jung" id="portrait"/>
 
 ## Persönliche Daten
 
@@ -36,6 +36,24 @@ Familienstand
   Full Stack Software Development, Management von Infrastructure as Code/Configuration im Einsatz bei einem breit gefächterten Spektrum an Kunden aus verschiedenen Branchen.
 
 ### Projekte im Auftrag von Qvest Digital / tarent
+
+01/2024-11/2024
+: **GRS Batterien Service GmbH**
+  Cloud Platform Engineer / DevOps Engineer
+  \
+\
+: **Projektbeschreibung:**
+  Aufbau und Wartung der Microsoft Azure-basierten Software-Plattform.
+  \
+\
+: **Aufgaben:**
+  Bereitstellung der Basis-Infrastruktur und Einrichtung der CI/CD-Pipelines für die Deployments der Container-basierten Softwarekomponenten.
+  \
+\
+: **Technologien:**
+  Microsoft Azure (insb. Container Apps, Static Web Apps, KeyVault, AppConfiguration, Cognitive Services), Github Workflows
+  \
+\
 
 12/2023
 : **Greenbone AG**
@@ -266,10 +284,10 @@ Datenbanken
 \
 
 Public Clouds
-: Gute Kentnisse mit Amazon Web Services (AWS), gute Kentnisse mit Microsoft Azure, sehr gute Kentnisse mit Google Cloud Platform (GCP)
+: Gute Kentnisse mit Amazon Web Services (AWS), sehr gute Kentnisse mit Microsoft Azure, sehr gute Kentnisse mit Google Cloud Platform (GCP)
 \
 \
-<small>Insbesondere die Konzepte der Ressourcen-Strukturierung, die Funktionsweise der verschiedenen IAM-Implementierungen, das DNS-Management und das Aufsetzen und der Betrieb des Deployments von Container-basierten und serverless Workloads und die damit in allen drei der oben genannten Hyperscaler sind hier mein Stärken.</small>\
+<small>Insbesondere auf den Konzepten der Ressourcen-Strukturierung, der Funktionsweise der verschiedenen IAM-Implementierungen, dem DNS-Management und dem Einrichten, dem Betrieb und dem Deployment von Container-basierten und serverless Workloads in cloud-basierten Szenarien liegt derzeit mein Fokus.</small>\
 \
 
 <div style="page-break-before: always;"></div>
