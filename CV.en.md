@@ -37,8 +37,8 @@ Marital status
 ### Projects on behalf of Qvest Digital / tarent
 
 01/2024-11/2024
-: **GRS Batterien Service GmbHCloud**
-  Platform Engineer / DevOps Engineer\
+: **GRS Batterien Service GmbH**
+  Cloud  Platform Engineer / DevOps Engineer\
   \
 \
 : **Project description:**
